@@ -9,7 +9,7 @@ touch /var/lock/dropzone
 case "$1" in
   start)
     echo "Starting dropzone "
-sudo -u oskar /home/oskar/bin/dropzone/dropzone > /dev/null 2>& 1 &
+sudo -u username /home/user/bin/dropzone/dropzone > /dev/null 2>& 1 &
     ;;
   stop)
     echo "Stopping dropzone"
