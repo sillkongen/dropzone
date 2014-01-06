@@ -5,7 +5,7 @@
 
 # The inotify tools have a github web page here https://github.com/rvoicilas/inotify-tools/wiki it is written by Rohan McGovern and maintained by Radu Voicilas
 
-# This script is written by Nick Lothian (http://nicklothian.com/) just slightly modified for the SCP push rather than an rsync. I also added the notification and the copy to clipboard section.
+# The original script was written by Nick Lothian  for the file write/notify towards with inotifywait (http://nicklothian.com/) just slightly modified for the SCP push rather than an rsync. I also added the notification and the copy to clipboard section.
 echo "Dest is: $DESTINATION" >&2
 echo "URL is: $URL" >&2
 
